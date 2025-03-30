@@ -1,0 +1,24 @@
+# .cursorrules
+
+```json
+{
+  "ignore": [
+    "*.test.ts",
+    "*.test.js",
+    "*.spec.js",
+    "node_modules/",
+    "*.md"
+  ],
+  "no_edit": [
+    "PRD.md"
+  ],
+  "root": {
+    "frontend": "frontend/pages/index.tsx",
+    "backend": "backend/api/index.ts"
+  },
+  "entrypoints": [
+    "frontend/pages/index.tsx",
+    "backend/api/loanCalculator.ts"
+  ]
+}
+```
